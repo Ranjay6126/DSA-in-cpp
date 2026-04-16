@@ -1,56 +1,22 @@
-#include <iostream>
-#include <algorithm>
-#include <climits>
-
+#include<iostream>
 using namespace std;
-
-int GetMax (int array[], int size){
-
-    int max = INT_MIN;  // -2^31 to -2^31 -1 ;
-
-    for(int i=0; i < size; i++){
-
-        if(array[i] > max){
-
-            max = array[i];
-        }
-    }
-
-return max;
-
-}
-
- int GetMin(int array[], int size){
-
-    int min = INT_MAX;
-
-    for(int i = 0; i < size; i++){
-
-        if(array[i] < min){
-            
-            min = array[i];
-        }
-
-    }
-    return min;
-
- }
 
 int main(){
 
-    int size;
-    cin>> size;
+//Array Declartion
 
-    int arr[100];
+    int arr[5];
 
-   // taking input in array
+ char arry[106];
+    bool array1[23];
 
-   for(int i=0; i<size; i++){
 
-    cin>> arr[i] ;
+// this two line referce to the same first address 
+Of memory location // base address
 
-   }
+    cout<<arr<<endl;
+    cout<< &arr <<endl;
 
-   cout<<"the value is max"<< GetMax(arr, size) <<endl;
-   cout<<"the value is min" << GetMin(arr, size) <<endl;
+    cout<<"all this good"<<endl;
+    return 0;
 }

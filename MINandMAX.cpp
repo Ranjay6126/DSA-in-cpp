@@ -29,6 +29,7 @@ int main(){
     int size ;
     cout<<"take the input of size"<<endl;
     cin>>size;
+    cout<<"Now enter the value of arrys"<<endl;
     
     for(int i=0; i<size; i++){
         cin>>barray[i];

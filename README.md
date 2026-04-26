@@ -8,7 +8,7 @@ It includes implementations of important concepts, coding problems, and optimize
 
 ---
 
-## 🚀 Objectives
+## 🚀 Objectives.
 
 - Build strong problem-solving skills
 - Master core DSA concepts

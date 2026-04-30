@@ -13,5 +13,5 @@ int main() {
 
     for(int x : v) {
         cout << x << " ";
-    }
+    }  
 }

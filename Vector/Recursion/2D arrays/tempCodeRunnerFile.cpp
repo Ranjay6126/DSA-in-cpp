@@ -1,19 +1,32 @@
-#include<iostream>
-using namespace std;
+// row wise sum
 
-int main(){
+// #include<iostream>
+// using namespace std;
 
-    //Declare 2D array
-    int arr[3][5];
-    
- // intialisation
- int bro[3][3]={{1,2,3},{4,5,6},{2,4,8}};
+// int main(){
 
- cout<<bro[0][0]<<endl;
- cout<<bro[0][1]<<endl;
- cout<<bro[0][2]<<endl;
- cout<<bro[2][2]<<endl;
-// for(int i=0; i<)
+//     int arr[3][3];
 
-    return 0;
-}
+//     cout << "Take the input of 2D array" << endl;
+
+//     for(int i = 0; i < 3; i++){
+//         for(int j = 0; j < 3; j++){
+//             cin >> arr[i][j];
+//         }
+//     }
+
+//     cout << "Row wise sum:" << endl;
+
+//     for(int i = 0; i < 3; i++){
+
+//         int sum = 0;
+
+//         for(int j = 0; j < 3; j++){
+//             sum = sum + arr[i][j];
+//         }
+
+//         cout << "Sum of row " << i << " = " << sum << endl;
+//     }
+
+//     return 0;
+// }

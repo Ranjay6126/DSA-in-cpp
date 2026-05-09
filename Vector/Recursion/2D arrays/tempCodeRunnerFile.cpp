@@ -1,32 +1,35 @@
-// row wise sum
+#include<iostream>
+using namespace std;
 
-// #include<iostream>
-// using namespace std;
+bool FindKey(int arr[][5], int row, int col, int key){
+    for(int i=0; i<row; i++){
+        for(int j=0; j<col; j++){
+            if(arr[i][j]==key){
+                return true;
+            }
+        }
+    }
+    return false;
+}
 
-// int main(){
+int main(){
 
-//     int arr[3][3];
+    int arr[6][5];
+    int row=6;
+    int col=5;
 
-//     cout << "Take the input of 2D array" << endl;
+    int key=5;
 
-//     for(int i = 0; i < 3; i++){
-//         for(int j = 0; j < 3; j++){
-//             cin >> arr[i][j];
-//         }
-//     }
+    cout<<"Take the input of 2d array"<<endl;
+    for(int i=0; i<row; i++){
+        for(int j=0; j<col; j++){
+            cin>>arr[i][j];
+        }
+    }
 
-//     cout << "Row wise sum:" << endl;
+    
+    cout<<"the key find in the 2d array"<<FindKey(arr,6,5,5)<<endl;
 
-//     for(int i = 0; i < 3; i++){
 
-//         int sum = 0;
-
-//         for(int j = 0; j < 3; j++){
-//             sum = sum + arr[i][j];
-//         }
-
-//         cout << "Sum of row " << i << " = " << sum << endl;
-//     }
-
-//     return 0;
-// }
+    return 0;
+}

@@ -1,7 +1,7 @@
-﻿# DSA-in-cpp
+ko﻿# DSA-in-cpp
 # cpp-interview-prep
 
-# 📘 DSA in C++
+# 📘 DSA in Cpp
 
 This repository contains my journey of learning **Data Structures and Algorithms (DSA)** using **C++**.  
 It includes implementations of important concepts, coding problems, and optimized solutions.

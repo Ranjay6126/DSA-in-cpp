@@ -13,7 +13,7 @@ int main(){
     arr.push_back(b);
     arr.push_back(c);
 
-
+    
     int row =3;
     int col = 5;
 

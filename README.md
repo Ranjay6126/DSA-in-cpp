@@ -77,6 +77,8 @@ It includes implementations of important concepts, coding problems, and optimize
 
 - [x] Basics
 - [x] Arrays
+- [ ] String
+- [ ] Linked lis
 - [ ] Graphs (In Progress)
 - [ ] Dynamic Programming (Coming Soon)...
 

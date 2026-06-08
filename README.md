@@ -1,5 +1,5 @@
-ko﻿# DSA-in-cpp
-# cpp-interview-prep
+chko﻿# DSA-in-cpp
+# cpp-interview
 
 # 📘 DSA in Cpp
 

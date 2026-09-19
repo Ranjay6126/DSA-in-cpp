@@ -22,3 +22,5 @@ int main(){
     int ans = gcd(a, b);
     cout<<ans;
 }
+
+
